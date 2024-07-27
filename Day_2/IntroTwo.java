@@ -36,7 +36,7 @@ public class IntroTwo {
            //primitve datetype : any datatype that you cannot break further
 
            //String is not primitve
-        //    String name = "ABCD";
+           String name = "ABCD";
         //    //char is primitive
         //     char ch = 't';
         //     float marks = 78.90f;
