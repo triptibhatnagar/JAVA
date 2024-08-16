@@ -8,9 +8,10 @@ public class IntroArrList {
         Scanner sc = new Scanner(System.in);
         //WHY WE NEED AN ARRAYLIST?
         /*
-        arrays are of fixed size, but if you dont' know the array size and want java to handle the size, then we use arraylist
+        arrays are of fixed size, but if you don't know the array size and want java to handle the size, then we use arraylist
         it is similar to vectors in cpp
         Arraylist is a part of java collection framework(java provides the implementation of different data structures in collection framework)
+        arraylist is basically a dynamic array
         */
 
         //SYNTAX OF ARRAYLIST
@@ -71,5 +72,6 @@ public class IntroArrList {
          * Assume : arraylist fills by some amount, it will create a anew arraylist of say double the size, old elements are copied in new arraylist, old one is deleted , hence amortized time complexity of an ArrayList is O(1) on average
         */
         //But we specified 10, how it is adding more than 10 items
+        sc.close();
     }
 }
