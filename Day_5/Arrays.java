@@ -18,7 +18,7 @@ public class Arrays {
 
         //What is an array?
         /*
-        there must be a data structure where i could store collection of datatypes
+        there must be a data structure where i could store collection of same datatypes
         Arrays : collection of datatypes (primitive or objects or complex datatype)
         */
 
@@ -40,7 +40,7 @@ public class Arrays {
 
         //How does array works?
         /*
-        this refernce variable is poiniting to the array object
+        this reference variable is pointing to the array object
         RHS : object
         LHS : reference variable
 
@@ -61,7 +61,7 @@ public class Arrays {
         /*
         Stack - in which all functions and reference variables go
         Heap - in which objects go
-        so, here refernce variable is pointing towards the array object(stack pointing towards heap)
+        so, here reference variable is pointing towards the array object(stack pointing towards heap)
         */
 
 
@@ -96,12 +96,12 @@ public class Arrays {
         //new keyword
         /*
         basically, used to create an object(dynamic memory allaocation at run time)
-         */
+        */
         
 
         int[] rn = new int [5];
         System.out.println(rn[3]); //0
-        //for an integer arry, by default, all elements are 0.
+        //for an integer array, by default, all elements are 0.
 
 
         //String array 
@@ -112,10 +112,10 @@ public class Arrays {
         //What is null in java?
         /*
         null is a special literal of null type
-        any refernce variable that you take, by default it is having null type
-        you can cast null to any particular refernce type but you cam't create a null type
+        any reference variable that you take, by default it is having null type
+        you can cast null to any particular reference type but you can't create a null type
         null a = null; (can't do this)
-        you can't refernce null to primitives.
+        you can't reference null to primitives.
         you can only assign null to non-primitives.
         String s = null; //(can be done)
         */
@@ -126,12 +126,11 @@ public class Arrays {
         String[] strs = new String[5];
         //internal working of object array
         primitives and reference variables are stored in stack memory only but all the other objects like string type, array type or your own type, hash map, classes are stored in heap memory
-        here, strs in stack and [_,_,_,_,_] in heap, each particular element of string array is an object itself in seaparate areas in heap memory
+        here, strs in stack and [_,_,_,_,_] in heap, each particular element of string array is an object itself in separate areas in heap memory
         * reference variables will point to the heap memory
-        * if each particular element of the array is an object then it will be located in some other area of heap memory and the reference variable is pointing to the array elements
+        * if each particular element of the array is an object then it will be located in some other area of heap memory and the reference variable(Eg - strs[0], strs[4]) is pointing to the array elements
         * array is just a collection of reference variables
         * by default, for every reference variable, if there is no value, then it is null.
         */
-        
     }
 }
