@@ -67,11 +67,12 @@ public class IntroArrList {
         */
 
         //in arraylist, how size is not required ?
+        //But we specified 10, how it is adding more than 10 items
         /* 
          * Actually, Size is fixed internally
-         * Assume : arraylist fills by some amount, it will create a anew arraylist of say double the size, old elements are copied in new arraylist, old one is deleted , hence amortized time complexity of an ArrayList is O(1) on average
+         * Assume : arraylist fills by some amount, it will create a new arraylist of say double the size, old elements are copied in new arraylist, old one is deleted , hence amortized time complexity of an ArrayList is O(1) on average
         */
-        //But we specified 10, how it is adding more than 10 items
+        
         sc.close();
     }
 }
