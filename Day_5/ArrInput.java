@@ -56,7 +56,7 @@ public class ArrInput {
         System.out.println(Arrays.toString(str));
 
         //modify
-        str[1] = "hello";//str[1] is the refernce variable
+        str[1] = "hello";//str[1] is the reference variable
         System.out.println(Arrays.toString(str));
 
         sc.close();
