@@ -1,7 +1,7 @@
 package Day_8;
 
 public class LinearSearch {
-    //search in the array :  return the idx if item found =, else return -1
+    //search in the array :  return the idx if item found, else return -1
     static int linear_search_returnIdx(int arr[], int item) {
         if(arr.length == 0) {
             return -1;
@@ -17,7 +17,8 @@ public class LinearSearch {
 
     static int linear_search_returnVal(int arr[], int item) {
         if(arr.length == 0) {
-            return -1;
+            // return -1;
+            return Integer.MAX_VALUE;
         }
         for (int i : arr) {
             if(i == item) {
