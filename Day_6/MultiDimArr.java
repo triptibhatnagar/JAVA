@@ -9,20 +9,20 @@ public class MultiDimArr {
         Scanner sc = new Scanner(System.in);
 
         //Syntax of 2d array
-        int arr[][] = new int[3][];
+        // int arr[][] = new int[3][];
         
         //specifying row no. is mandatory but specifying col no. is not mandatory
 
         //or, directly
-        int nums[][] = {
-            {1,2,3},
-            {4,5,6},
-            {7,8,9}
-        };
+        // int nums[][] = {
+        //     {1,2,3},
+        //     {4,5,6},
+        //     {7,8,9}
+        // };
 
         //Internal working of 2d array
         /*
-        In c or cpp, itis continuous memory allocation.
+        In c or cpp, it is continuous memory allocation.
         0th index of 2d array -> a 1d array
         1st index of 2d array -> a 1d array
         2nd index of 2d array -> a 1d array
@@ -33,8 +33,8 @@ public class MultiDimArr {
         arr[1] = [4,5,6]
         arr[1][0] = 4
 
-        size of the indiviadual rows do not matter i.e. size of columns can vary
-         */
+        size of the individual rows do not matter i.e. size of columns can vary
+        */
         int arr2D[][] = {
             {1,2,3},
             {4,5},
@@ -49,7 +49,7 @@ public class MultiDimArr {
                 arr[i][j] = sc.nextInt();
             }
         }
-         */
+        */
         //2D array output
         for(int i=0; i<arr2D.length; i++) {
             for(int j=0; j<arr2D[i].length; j++) {
@@ -66,5 +66,6 @@ public class MultiDimArr {
         for (int[] a : arr2D) {
             System.out.println(Arrays.toString(a));
         }
+        sc.close();
     }
 }
