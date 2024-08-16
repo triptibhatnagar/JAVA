@@ -1,6 +1,6 @@
 package Day_6;
 
-import java.util.*;;
+import java.util.*;
 
 public class MultiDimArrList {
     public static void main(String[] args) {
@@ -20,5 +20,7 @@ public class MultiDimArrList {
         }
 
         System.out.println(list);
+
+        sc.close();
     }
 }
