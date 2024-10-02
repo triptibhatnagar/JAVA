@@ -1,0 +1,129 @@
+STRUCTURE OF JAVA FILE :-
+        "Source code that we write will be saved using extension.java"
+        • Every thing written in .java file must be in classes or we can say that every file having .java extension is a class
+        • A class with same name as file name must be present in .java file.
+        # First alphabet of class name can be in upper case. It is the naming convention of class name. however, it is not compulsory to do so.
+        • Class which is having same name as file must be public class
+        • A main function/method must be present in this public class, main is a function from where the program starts.
+
+CONVERTING .java to .class
+        Using javac compiler we can convert .java file to .class Command to convert .java to.class
+        Javac and.java file name
+        Let the name of .java file is Main, so the command to convert java to class is Javac Main.java
+        Above command create a class file (Main.class) which contains Bytecode.
+
+RUNNING THE PROGRAM 
+        By using java and name of file we can run the program.
+        Command> java Main
+        
+        Hello world program
+        /*
+        public class Main { 
+            public static void main(String[] args){ 
+                System.out.println("Hello World"); 
+            }
+        }
+        */
+
+        1. public (in first line):- public is an access modifier which allows to access the class from anywhere.
+        2. class:- It is a name group of properties and functions
+        3. Main: It is just the name of class as same as the name of file.
+        4. public (in second line) :- It is used to allow the program to use main function from anywhere.
+        5. static:- It is a keyword which helps the main method to run without using objects.
+        6. void: It is a keyword used when we do not want to return anything from a method/function
+        7. main:-It is the name of method.
+        8. String[] args:- It is a command line argument of string type array.
+        9. System:- It is a final class defined in java.lang package.
+        10. out: It is a variable of PrintStream type which is public and static member field of the System class.
+        11. printin: It is a method of PrintStream class, it prints the argumants passed to it and adds a new line. print can aalso be used here but it prints only arguments passed to it. It do not adds a new line.
+
+WHAT IS PACKAGE?
+        →It is just a folder in which java files lies.
+        →It is used to provide some rules and stuff to our programs.
+    
+PRIMITIVE DATA TYPES
+        Primitives data types are those data types which is not breakable.
+        Ex:- String is not a primitive data type so we can break this data type into char i.e., String "Kunal" can be divided into 'K' 'u' 'n' 'a' 'T
+        But primitives data type are not breakable.
+        We cannot break a char, int etc.
+
+        List of primitive data types in java are:-
+        1) int
+        - int is used to store numeric digits
+        - int i=26
+
+        2) float
+        - float is used to store floating point numbers
+        - float f=98.67f
+
+        3) char
+        - char is used to store character
+        - char c= 'A'
+
+        4) double
+        - double is used to store larger decimal numbers
+        - double d= 45676.58975
+
+        5) long
+        - long is used to store numeric digits which is not able to stored in int
+        - long a = 15876954832558315L
+
+        6) boolean
+        - It only stores store t values ie, true or false.
+        - boolean b = false
+
+        In float and long we have used f and L, it denotes that the number in the variable is float or long type, if we do not use this java consider float value as double and long value as int
+
+        Literals: It is a synthetic representation of boolean, character, string, and numeric data.
+        Eg:- int a = 10;
+        Here 10 is called literal.
+
+        Identifiers:- name of variable, methods, class, packages, etc. are known as identifiers.
+        Eg:- int a = 10;
+        Here a is Identifier.
+
+COMMENTS IN JAVA
+        Comments are something which is written in source code but ignored by compiler.
+        Two types of Comment
+        1. Single line comment used to comment down a single line (// is used for it.)
+        2. Multi line comment used to comment down multiple lines (/* */ is used for it)
+
+INPUTS IN JAVA
+        We have Scanner class available in java.util package to take input
+        To use this class we have to
+        1. Import java.util package in our file
+        2. Create object of the scanner class
+        3. Use that object to take input from the keyboard.
+        
+KEYWORDS IN SYNTAX 
+        1. Scanner:- It is a class required to take input, it is present in java.util package.
+        2. input: It is an object that we are creating to take input.
+        3. new: It is a keyword used to create an object in java.
+        4. System.in:-System is a class and in is a variable that denotes we are taking input from standard input stream (i.e. Keyboard).
+
+        int Input: nextInt() is a function used to take input of int.
+        Syntax:-
+        Scanner input = new Scanner(System.in);
+        int rollno input.nextInt();
+
+        float Input: nextFnt() is a function used to take input of int.
+        Syntax:-
+        Scanner input = new Scanner(System.in); 
+        float marks input.nextFloat();
+
+        String Input:- Two ways to take string input
+        1. Using next() Method:- It will take one word input till a space occurs
+        Syntax:
+        Scanner input new Scanner(System.in);
+        String s1 input.next();
+
+        Input: Hey Abc
+        Output: Hey
+
+        2. Using nextLine() Method: it will take all string input including space. Syntax
+        Syntax:
+        Scanner input = new Scanner(System.in);
+        String s2 input.nextLine();
+
+        Input: Hey Abc
+        Output: Hey Abc

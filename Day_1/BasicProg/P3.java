@@ -7,6 +7,7 @@ public class P3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        sc.close();
         if(n < 0) {
             System.out.println("Not a prime number");
             return;
@@ -26,6 +27,5 @@ public class P3 {
         if (i * i > n) {
             System.out.println("Prime number");
         }
-        sc.close();
     }  
 }

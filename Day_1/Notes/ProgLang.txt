@@ -1,8 +1,4 @@
-package Day_1;
-
-public class ProgLang {
-    /*
-    Computers only understand 0 and 1.
+Computers only understand 0 and 1.
     Programming - way to instruct the computer to perform various tasks.
     Instructing computers in 0,1 is difficult for humans, so we have prog lang.
 
@@ -49,5 +45,3 @@ public class ProgLang {
     - If any change made to the object by any reference variable, that change will be reflected to all other reference variables pointing to same object.
     - object w/o reference variable, it will be destroyed by garbage collection.
     - The garbage collection implementation lives in the JVM. 
-    */
-}
