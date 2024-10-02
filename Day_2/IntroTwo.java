@@ -19,6 +19,7 @@ public class IntroTwo {
 
          Scanner sc = new Scanner(System.in);
          System.out.println(sc.nextLine());
+         sc.close();
          /* INPUT
           * import java.util.Scanner 
           * Scanner - class which parse primitive types and strings using regular expressions (allows to take input)
@@ -37,6 +38,7 @@ public class IntroTwo {
 
            //String is not primitve
            String name = "ABCD";
+           System.out.println(name+" "+rollNo);
         //    //char is primitive
         //     char ch = 't';
         //     float marks = 78.90f;
