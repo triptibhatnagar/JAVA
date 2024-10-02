@@ -15,7 +15,7 @@ public class IntroThree {
         int a = 10; //literals - syntactical representation of boolean, numeric, or string data
         //a(reference variable) - identifier
         //IntroThree, main,Day_3 - identifiers
-
+        System.out.println("Literal = "+a+"\nIdentifier = a");
         int b = 234_000_000;
         System.out.println(b);
 
@@ -38,6 +38,6 @@ public class IntroThree {
         float sum2 = n1+n2;
         System.out.println("Sum: "+sum2);
 
-        
+        sc.close();
     }
 }
